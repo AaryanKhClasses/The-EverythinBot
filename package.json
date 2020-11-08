@@ -1,0 +1,32 @@
+{
+  "name": "The-EverythinBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaryanKhClasses/The-EverythinBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaryanKhClasses/The-EverythinBot/issues"
+  },
+  "homepage": "https://github.com/AaryanKhClasses/The-EverythinBot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.10.13"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@commands": "./commands/commands",
+    "@features": "./features/features",
+    "@utils": "./utils",
+    "@schemas": "./schemas"
+  }
+}
