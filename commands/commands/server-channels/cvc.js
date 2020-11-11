@@ -25,7 +25,7 @@ module.exports = {
             } else if(name){
                 message.guild.channels
                 .create(name, {
-                    type: 'text',
+                    type: 'voice',
                 })
                 .then((channel) => {
                     const categoryId = '' 
