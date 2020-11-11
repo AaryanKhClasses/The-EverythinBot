@@ -33,7 +33,7 @@ module.exports = {
                 })
             
                 const embed = new MessageEmbed()
-                .setDescription(`✅ Successfully created channel ${name}!`)
+                .setDescription(`✅ Successfully created category ${name}!`)
                 .setFooter('The EverythinBot')
                 .setColor('GREEN')
                 .setTimestamp(new Date())

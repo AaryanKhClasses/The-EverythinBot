@@ -122,9 +122,10 @@ module.exports = (client, commandOptions) => {
                     .reply('a little too quick there.')
                     .then((thisMessage) => {
                         thisMessage.delete({
-                            timeOut: 5000
+                            timeout: 5000
                         })
                     })
+                    message.delete()
                     return
                 }
 

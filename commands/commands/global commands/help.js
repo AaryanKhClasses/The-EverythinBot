@@ -15,13 +15,22 @@ module.exports = {
         .addFields(
             {
                 name: 'Global Commands',
-                value: 'ping, help, info'
+                value: 'ping, help, info, uptime, changelog'
             },
             {
                 name: 'Fun',
-                value: 'Nothing YET'
+                value: 'anime, poll',
+            },
+            {
+                name: 'Server-Channels',
+                value: 'ctc, cvc, cct, cc, set-verification, slowmode',
+            },
+            {
+                name: 'Moderation',
+                value: 'kick'
             }
         )
+        .setDescription('**NOTE:** If some of the commands are not working, check the changelog for info about which commands are not working.')
         message.channel.send(embed)
     }
 }

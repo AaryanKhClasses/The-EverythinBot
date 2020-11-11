@@ -6,6 +6,7 @@ const { token, prefix } = require('@root/config.json')
 
 const loadCommands = require('@root/commands/load-commands.js')
 const commandBase = require('@root/commands/command-base.js')
+const loadFeatures = require('@root/features/load-features.js')
 
 client.on('ready', () => {
     console.log('The bot is Online!')
@@ -13,6 +14,7 @@ client.on('ready', () => {
 
     loadCommands(client)
     commandBase.loadPrefixes(client)
+    loadFeatures(client)
 })
 
 client.login(token)

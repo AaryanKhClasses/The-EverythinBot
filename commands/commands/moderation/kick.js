@@ -14,7 +14,7 @@ module.exports = {
             if(!target){
                 const embed = new Discord.MessageEmbed()
                 .setTitle(`${prefix}kick Command`)
-                    .setColor('ORANGE')
+                .setColor('ORANGE')
                 .setFooter('The EverythinBot')
                 .setDescription(
                     `**Description:** Kicks a member\n**Cooldown:** 3 seconds\n**Usage:** !kick [user] (reason)\n**Example:** !kick @AaryanKh Get Out!`

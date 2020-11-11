@@ -1,0 +1,26 @@
+ChangeLog v1.0.0
+
+Commands
+    a. Fun Commands
+        1. Anime (Doesn't work)
+        2. Poll (Works Kinda...)
+    b. Global Commands
+        1. Help (Works)
+        2. Info (Completed)
+        3. Ping (Completed)
+        4. Uptime (Doesn't work)
+    c. Moderation
+        1. Kick (Works kinda...)
+    d. Server Channels
+        1. ClearChannel (Completed)
+        2. CreateCategory (Completed)
+        3. CreateTextChannel (Completed)
+        4. CreateVoiceChannel (Completed)
+        5. Set-Verification (Doesn't work)
+        6. Slowmode (Completed)
+
+Features
+    1. Counting (Works Kinda...)
+    2. Member-Count (Doesn't Work)
+    3. Verification-Channels (Doesn't Work)
+    4. Levelling System (Completed)

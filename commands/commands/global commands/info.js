@@ -48,9 +48,17 @@ module.exports = {
                 inline: true,
             },
             {
-                name: 'Invite',
-                value: '[Invite](https://discord.com/oauth2/authorize?client_id=774852582371885056&scope=bot&permissions=8)',
+                name: 'Prefix',
+                value: `${prefix}help`,
                 inline: true,
+            },
+            {
+                name: 'Invite',
+                value: '[Invite me to your server!](https://discord.com/oauth2/authorize?client_id=774852582371885056&scope=bot&permissions=8)',
+            },
+            {
+                name: 'Support',
+                value: '[Join the Support Server](https://discord.io/everythinbot)',
             },
             {
                 name: 'Uptime',

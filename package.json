@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/AaryanKhClasses/The-EverythinBot#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "discord.js": "^12.4.1",
     "module-alias": "^2.2.2",
-    "mongoose": "^5.10.13"
+    "mongoose": "^5.10.13",
+    "request": "^2.88.2"
   },
   "_moduleAliases": {
     "@root": ".",
