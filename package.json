@@ -22,7 +22,8 @@
     "discord.js": "^12.4.1",
     "module-alias": "^2.2.2",
     "mongoose": "^5.10.13",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "xhr2": "^0.2.0"
   },
   "_moduleAliases": {
     "@root": ".",
