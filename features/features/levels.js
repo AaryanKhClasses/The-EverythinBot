@@ -38,7 +38,7 @@ const addXP = async(guildId, userId, xpToAdd, message) => {
                 ++level
                 xp -= needed
                 const embed = new MessageEmbed()
-                .setDescription(`<@${message.member.id}>You are now ${level} with ${xp} experience! You now need ${getNeededXP(level)} XP to level up again!`)
+                .setDescription(`<@${message.member.id}>You are now level ${level} with ${xp} experience! You now need ${getNeededXP(level)} XP to level up again!`)
                 .setColor('GREEN')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
