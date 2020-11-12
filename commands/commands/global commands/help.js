@@ -28,6 +28,10 @@ module.exports = {
             {
                 name: 'Moderation',
                 value: 'kick'
+            },
+            {
+                name: 'Report',
+                value: 'report, repinf'
             }
         )
         .setDescription('**NOTE:** If some of the commands are not working, check the changelog for info about which commands are not working.')
