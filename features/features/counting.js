@@ -13,7 +13,6 @@ module.exports = (client) => {
                 )
             } else if(message.member.id !== client.user.id){
                 message.delete().catch(console.error)
-                count = 0
                 if(timeout) client.clearTimeout(timeout)
             }
         }

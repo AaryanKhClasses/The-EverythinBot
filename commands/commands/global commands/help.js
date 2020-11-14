@@ -15,15 +15,15 @@ module.exports = {
         .addFields(
             {
                 name: 'Global Commands',
-                value: 'ping, help, info, uptime, changelog'
+                value: 'ping, help, info, uptime, changelog, news'
             },
             {
                 name: 'Fun',
-                value: 'anime, poll',
+                value: 'anime, poll, say, twitter-say',
             },
             {
                 name: 'Server-Channels',
-                value: 'ctc, cvc, cct, cc, set-verification, slowmode',
+                value: 'ctc, cvc, cct, cc, set-verification, slowmode, delete-channel',
             },
             {
                 name: 'Moderation',
@@ -32,6 +32,10 @@ module.exports = {
             {
                 name: 'Report',
                 value: 'report, repinf'
+            },
+            {
+                name: 'Economy',
+                value: 'balance, add-balance'
             }
         )
         .setDescription('**NOTE:** If some of the commands are not working, check the changelog for info about which commands are not working.')
