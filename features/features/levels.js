@@ -1,4 +1,4 @@
-const mongo = require('@utils/mongo.js')
+/*const mongo = require('@utils/mongo.js')
 const profileSchema = require('@schemas/profile-schema')
 const { MessageEmbed } = require('discord.js')
 
@@ -62,3 +62,5 @@ const addXP = async(guildId, userId, xpToAdd, message) => {
 }
 
 module.exports.addXP = addXP
+*/
+module.exports = (client) => {}

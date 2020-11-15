@@ -15,7 +15,7 @@ module.exports = (client) => {
             .setTimestamp(new Date())
             const msg = await member.send(embed, {
                 files: [{
-                    attachment: `../../../captcha-imgs/${captcha}.png`,
+                    attachment: `${__dirname}/captcha-imgs/${captcha}.png`,
                     name: `${captcha}.png`
                 }]
             })
@@ -43,7 +43,7 @@ module.exports = (client) => {
                     .setTimestamp(new Date())
                     await msg.channel.send(embed)
                     await member.roles.add('774932067615899659')
-                    await fs.unlink(`../../../captcha-imgs/${captcha}.png`)
+                    await fs.unlink(`${__dirname}/captcha-imgs/${captcha}.png`)
                     .catch(err => console.log(err))
                 }
             } catch(err) {
@@ -55,7 +55,7 @@ module.exports = (client) => {
                 .setTimestamp(new Date())
                 await msg.channel.send(embed)
                 await member.kick()
-                await fs.unlink(`../../../captcha-imgs/${captcha}.png`)
+                await fs.unlink(`${__dirname}/captcha-imgs/${captcha}.png`)
                 .catch(err => console.log(err))
             }
         } catch(err){

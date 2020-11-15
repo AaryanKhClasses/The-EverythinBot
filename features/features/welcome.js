@@ -14,6 +14,6 @@ module.exports = (client) => {
         //     .setTimestamp(new Date())
         //     channelName.send(embed)
         // }
-        message.channel.send('hi')
+        // message.channel.send('hi')
     })
 }

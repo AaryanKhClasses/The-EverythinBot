@@ -1,3 +1,4 @@
+/*
 const mongo = require('@utils/mongo.js')
 const profileSchema = require('@schemas/profile-schema.js')
 const coinsCache = {}
@@ -74,3 +75,5 @@ module.exports.getCoins = async(guildId, userId) => {
 }
 
 module.exports.addCoins = addCoins
+*/
+module.exports = (client) => {}
