@@ -26,6 +26,8 @@ Features
     3. Verification-Channels (Doesn't Work)
     4. Levelling System (Completed)
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangeLog v1.0.1
 v.1.0.0 +
 
@@ -54,3 +56,28 @@ Features:
 CHANGES & BUG FIXES:
 
 1. Counting doesn't resets when a member gives wrong number.
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangeLog v.1.0.2
+v1.0.1+
+
+NEW:
+
+Commands:
+    Economy
+        - Add-Balance(Removed)
+        1. Balance(New)
+        2. Daily(Completed)
+        3. Pay(Completed)
+        4. Gamble (Completed)
+
+Features:
+    1. Boost Notifications(Support Server Only, Works)
+    2. Join-Leave Logs(Support Server Only, Works)
+    3. Welcome(Support Server Only, Works)
+
+CHANGES & BUG FIXES:
+
+1. Levelling System still not fixed, but Economy System is successfully transfered and is working...
+For more info regarding ^ do !news

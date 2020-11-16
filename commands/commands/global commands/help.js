@@ -35,7 +35,7 @@ module.exports = {
             },
             {
                 name: 'Economy',
-                value: 'balance, add-balance'
+                value: 'balance, daily, gamble, pay'
             }
         )
         .setDescription('**NOTE:** If some of the commands are not working, check the changelog for info about which commands are not working.')

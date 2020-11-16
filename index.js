@@ -17,8 +17,8 @@ client.on('ready', () => {
     loadCommands(client)
     commandBase.loadPrefixes(client)
     loadFeatures(client)
-    captcha(client)
-    makeCaptcha(client)
+    //captcha(client)
+    //makeCaptcha(client)
 })
 
 client.login(token)

@@ -1,3 +1,4 @@
+/*
 const economy = require('@features/economy.js')
 const { prefix } = require('@root/config.json')
 const { MessageEmbed } = require('discord.js')
@@ -45,3 +46,4 @@ module.exports = {
         }
     }
 }
+*/

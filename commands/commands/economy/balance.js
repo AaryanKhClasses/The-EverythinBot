@@ -1,3 +1,4 @@
+/*
 const { prefix } = require('@commands/set-prefix')
 const economy = require('@features/economy')
 const { MessageEmbed } = require('discord.js')
@@ -19,3 +20,4 @@ module.exports = {
         message.channel.send(embed)
     }
 }
+*/

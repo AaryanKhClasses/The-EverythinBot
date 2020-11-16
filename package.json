@@ -18,12 +18,15 @@
   },
   "homepage": "https://github.com/AaryanKhClasses/The-EverythinBot#readme",
   "dependencies": {
+    "better-sqlite3": "^7.1.1",
     "canvas": "^2.6.1",
     "cheerio": "^1.0.0-rc.3",
     "discord.js": "^12.4.1",
     "jimp": "^0.16.1",
     "module-alias": "^2.2.2",
     "mongoose": "^5.10.13",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.3",
     "request": "^2.88.2",
     "xhr2": "^0.2.0"
   },
