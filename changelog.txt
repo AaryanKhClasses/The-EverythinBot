@@ -81,3 +81,26 @@ CHANGES & BUG FIXES:
 
 1. Levelling System still not fixed, but Economy System is successfully transfered and is working...
 For more info regarding ^ do !news
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Changelog v.1.0.3
+v.1.0.2+
+
+NEW:
+
+Commands:
+    Fun:
+        1. Google: Finds something in Google!
+        2. Meme: Posts a random reddit Meme!
+        3. Reddit: Finds and gives info about the specified reddit user!
+        4. Weather: Gives weather of the specified location!
+
+    Economy: 
+        1. Add-Coins: Add Coins by CHEATING
+        2. Remove-Coins: Remove Coins by CHEATING
+        3. Leaderboard: Shows leaderboard
+        4. Work: Work to earn money(Every 4 hrs but less money than Daily)
+
+    Moderation:
+        1. Ban: Bans Members

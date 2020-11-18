@@ -19,7 +19,7 @@ module.exports = {
             },
             {
                 name: 'Fun',
-                value: 'anime, poll, say, twitter-say',
+                value: 'anime, poll, say, twitter-say, meme, reddit, google, weather',
             },
             {
                 name: 'Server-Channels',
@@ -27,7 +27,7 @@ module.exports = {
             },
             {
                 name: 'Moderation',
-                value: 'kick'
+                value: 'kick, ban'
             },
             {
                 name: 'Report',
@@ -35,7 +35,7 @@ module.exports = {
             },
             {
                 name: 'Economy',
-                value: 'balance, daily, gamble, pay'
+                value: 'balance, daily, gamble, pay, leaderboard, add-coins, remove-coins, work'
             }
         )
         .setDescription('**NOTE:** If some of the commands are not working, check the changelog for info about which commands are not working.')
