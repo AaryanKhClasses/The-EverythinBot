@@ -2,7 +2,6 @@ module.exports = {
     commands: 'ping',
     description: 'Pings the bot!',
     cooldown: 3,
-    maxArgs: 0,
     callback: (message) => {
         message.channel.send('Pong!').then((resultMessage) => {
             const ping = resultMessage.createdTimestamp - message.createdTimestamp
