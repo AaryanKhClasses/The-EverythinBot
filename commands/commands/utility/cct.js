@@ -15,12 +15,10 @@ module.exports = {
             if(!name){
                 const embed = new MessageEmbed()
                 .setTitle(`${prefix}cct Command`)
-                .setDescription(
-                    `**Description:** Creates an uncategorized category.\n**Cooldown:** 10 seconds\n**Usage:** !cct [channel name]\n**Example:** !cct Test Channel`
-                )
+                .setDescription(`<:emojino:779190801598775317> Please give the name to make a category!`)
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
-                .setColor('ORANGE')
+                .setColor('RED')
                 message.channel.send(embed)
             } else if(name){
                 message.guild.channels
@@ -46,7 +44,7 @@ module.exports = {
         ) {
             const embed = new MessageEmbed()
             .setDescription(
-                `🅾 You do not have the permission to use this command!`
+                `<:emojino:779190801598775317> You do not have the permission to use this command!`
             )
             .setColor('RED')
             .setFooter('The EverythinBot')

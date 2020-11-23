@@ -16,9 +16,7 @@ module.exports = {
                 .setTitle(`${prefix}ban Command`)
                 .setColor('ORANGE')
                 .setFooter('The EverythinBot')
-                .setDescription(
-                    `**Description:** Bans a member\n**Cooldown:** 3 seconds\n**Usage:** !ban [user] (reason)\n**Example:** !ban @AaryanKh Get Out!`
-                )
+                .setDescription('<:emojino:779190801598775317> Please mention a member to ban!')
                 message.channel.send(embed)
             } else if(target){
                 const targetMember = message.guild.members.cache.get(target.id)
@@ -26,7 +24,7 @@ module.exports = {
                     targetMember.ban()
                     const embed = new Discord.MessageEmbed()
                     .setDescription(
-                        `✅ <@${message.author.id}> <@${target.id}> was banned! ${reason}`
+                        `<:emojiyes:779190801392861224> <@${message.author.id}> <@${target.id}> was banned! ${reason}`
                     )
                     .setFooter('The EverythinBot')
                     .setTimestamp(new Date())
@@ -36,7 +34,7 @@ module.exports = {
                    console.log('Hello').then((resultMessage) => {
                         const embed = new Discord.MessageEmbed() 
                         .setDescription(
-                            `🅾 <@${message.author.id}> <@${target.id}> ia a mod/admin and I cant ban them.`
+                            `<:emojino:779190801598775317> <@${message.author.id}> <@${target.id}> ia a mod/admin and I cant ban them.`
                         )   
                         .setFooter('The EverythinBot')
                         .setTimestamp(new Date())
@@ -51,7 +49,7 @@ module.exports = {
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
             .setDescription(
-                `🅾 You dont have the permissions to use this command.`
+                `<:emojino:779190801598775317> You dont have the permissions to use this command.`
             )
             message.channel.send(embed)
         }

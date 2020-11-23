@@ -18,7 +18,7 @@ module.exports = {
             .setDescription(
                 `**Description:** Sets the verification channel.\n**Cooldown:** 5 seconds\n**Usage:** ${prefix}set-verification [emoji] [roleId]\n**Example:** ${prefix}set-verification ✅ 774932067615899659\n**Note:** This roleId will not work for you.`
             )
-            .setColor('ORANGE')
+            .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
             message.channel.send(embed)

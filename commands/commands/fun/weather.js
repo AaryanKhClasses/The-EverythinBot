@@ -11,7 +11,7 @@ module.exports = {
         await weather.find({search: city, degreeType: degreetype}, function(err, result) {
             if(!city) {
                 const embed = new Discord.MessageEmbed()
-                .setDescription(`Please insert the name of the city that you want to look weather of!`)
+                .setDescription(`<:emojino:779190801598775317> Please insert the name of the city that you want to look weather of!`)
                 .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
@@ -20,7 +20,7 @@ module.exports = {
 
             if(err || result === undefined || result.length === 0){
                 const embed = new Discord.MessageEmbed()
-                .setDescription(`Unknown City! Please insert a valid city name!`)
+                .setDescription(`<:emojino:779190801598775317> Unknown City! Please insert a valid city name!`)
                 .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())

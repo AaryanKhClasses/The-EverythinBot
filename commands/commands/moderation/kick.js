@@ -14,11 +14,9 @@ module.exports = {
             if(!target){
                 const embed = new Discord.MessageEmbed()
                 .setTitle(`${prefix}kick Command`)
-                .setColor('ORANGE')
+                .setColor('RED')
                 .setFooter('The EverythinBot')
-                .setDescription(
-                    `**Description:** Kicks a member\n**Cooldown:** 3 seconds\n**Usage:** !kick [user] (reason)\n**Example:** !kick @AaryanKh Get Out!`
-                )
+                .setDescription(`<:emojino:779190801598775317> Please mention a member to kick!`)
                 message.channel.send(embed)
             } else if(target){
                 const targetMember = message.guild.members.cache.get(target.id)
@@ -26,7 +24,7 @@ module.exports = {
                     targetMember.kick()
                     const embed = new Discord.MessageEmbed()
                     .setDescription(
-                        `✅ <@${message.author.id}> <@${target.id}> was Kicked! ${reason}`
+                        `<:emojiyes:779190801392861224> <@${message.author.id}> <@${target.id}> was Kicked! ${reason}`
                     )
                     .setFooter('The EverythinBot')
                     .setTimestamp(new Date())
@@ -36,7 +34,7 @@ module.exports = {
                    console.log('Hello').then((resultMessage) => {
                         const embed = new Discord.MessageEmbed()
                         .setDescription(
-                            `🅾 <@${message.author.id}> <@${target.id}> ia a mod/admin and I cant kick them.`
+                            `<:emojino:779190801598775317> <@${message.author.id}> <@${target.id}> ia a mod/admin and I cant kick them.`
                         )   
                         .setFooter('The EverythinBot')
                         .setTimestamp(new Date())
@@ -51,7 +49,7 @@ module.exports = {
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
             .setDescription(
-                `🅾 You dont have the permissions to use this command.`
+                `<:emojino:779190801598775317> You dont have the permissions to use this command.`
             )
             message.channel.send(embed)
         }

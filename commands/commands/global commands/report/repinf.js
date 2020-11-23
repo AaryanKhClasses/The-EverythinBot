@@ -12,7 +12,7 @@ module.exports = {
         .addFields(
             {
                 name: 'Format for sending the report.',
-                value: `\`${prefix} report -i\` Your ID \`-t\` Type of Report \`-r\` Your Report`,
+                value: `\`${prefix}report -i\` Your ID \`-t\` Type of Report \`-r\` Your Report`,
             },
             {
                 name: 'Definitions of some terms.',

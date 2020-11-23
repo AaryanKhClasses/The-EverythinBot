@@ -8,7 +8,7 @@ module.exports = {
             let user = args[0]
             if(!user) {
                 const embed = new MessageEmbed()
-                .setDescription('Please Enter a Username to get Info of!')
+                .setDescription('<:emojino:779190801598775317> Please Enter a Username to get Info of!')
                 .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
@@ -43,7 +43,7 @@ module.exports = {
         } catch(error){
             if(error.status === '404'){
                 const embed = new MessageEmbed()
-                .setDescription('There is no such user!')
+                .setDescription('<:emojino:779190801598775317> There is no such user!')
                 .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())

@@ -25,7 +25,7 @@ module.exports = {
                 let finalTime = `**${hours}:${mins}:${secs}**`
                 const embed = new Discord.MessageEmbed()
                 .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-                .setDescription(`Sorry! You have already claimed your dailies. Please wait until ${finalTime} to do daily again!`)
+                .setDescription(`<:emojino:779190801598775317> Sorry! You have already claimed your dailies. Please wait until ${finalTime} to do daily again!`)
                 .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
@@ -35,7 +35,7 @@ module.exports = {
                 db.add(`account.${message.author.id}.balance`, amount)
                 const embed = new Discord.MessageEmbed()
                 .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-                .setDescription(`Yay! You have claimed your dailies and you got ${amount} coins!\nYou can claim your dailies again in 24 hours!`)
+                .setDescription(`<:emojiyes:779190801392861224> Yay! You have claimed your dailies and you got ${amount} coins!\nYou can claim your dailies again in 24 hours!`)
                 .setColor('GREEN')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())

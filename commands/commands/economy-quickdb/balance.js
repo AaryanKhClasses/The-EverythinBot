@@ -16,7 +16,7 @@ module.exports = {
 
         if(user.bot || user === client.user){
             const embed = new Discord.MessageEmbed()
-            .setDescription(`Sorry! The mentioned user is a bot and bots cannot have money!`)
+            .setDescription(`<:emojino:779190801598775317> Sorry! The mentioned user is a bot and bots cannot have money!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -29,7 +29,7 @@ module.exports = {
 
         const embed = new Discord.MessageEmbed()
         .setTitle(`Balance for ${user.tag}`)
-        .setDescription(`**Balance:** ${(balance).toLocaleString()} coins`)
+        .setDescription(`<:emojiyes:779190801392861224> **Balance:** ${(balance).toLocaleString()} coins`)
         .setColor('GREEN')
         .setFooter('The EverythinBot')
         .setTimestamp(new Date())

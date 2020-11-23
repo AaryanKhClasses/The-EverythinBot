@@ -104,3 +104,28 @@ Commands:
 
     Moderation:
         1. Ban: Bans Members
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangeLog v.b1.1
+v.10.3+
+
+NEW:
+
+Commands:
+    Fun:
+        - Twitter-Say
+        - Anime
+        1. Math: Do some normal Math
+        2. 8Ball: See The Magical EverythinBot knows everythin!
+        3. Urban: See the definition of words!
+
+    Roles:
+        1. Give-Role: Give Roles to other members!
+        2. Remove-Role: Removes Roles from other members!
+
+    Economy:
+        1. Crime: Crime to earn(or lose) money(Every 4 hours!)
+
+Changes:
+. Renamed `Server Channels` to `Utility`

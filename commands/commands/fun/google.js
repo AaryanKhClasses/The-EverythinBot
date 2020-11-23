@@ -12,7 +12,7 @@ module.exports = {
 
         if(!query){
             const embed = new Discord.MessageEmbed()
-            .setDescription(`Please enter a query to search!`)
+            .setDescription(`<:emojino:779190801598775317> Please enter a query to search!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -22,7 +22,7 @@ module.exports = {
         href = await search(query)
         if(!href){
             const embed = new Discord.MessageEmbed()
-            .setDescription(`Unknown search(href)!`)
+            .setDescription(`<:emojino:779190801598775317> Unknown search(href)!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())

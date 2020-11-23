@@ -11,8 +11,8 @@ module.exports = {
             const accepted = args[1]
             if(!accepted) {
                 const embed = new MessageEmbed()
-                .setDescription(`**Description:** Deletes a channel\n**Cooldown:** 10 seconds\n**Usage:** ${prefix}delete-channel [confirm / deny]\n`)
-                .setColor('ORANGE')
+                .setDescription(`<:emojino:779190801598775317> Please say CONFIRM/DENY for this request`)
+                .setColor('RED')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
                 message.channel.send(embed)
@@ -20,7 +20,7 @@ module.exports = {
             } else if(accepted === 'confirm'){
                 message.channel.delete()
                     const embed = new MessageEmbed()
-                    .setDescription(`The channel you requested to delete is now deleted!`)
+                    .setDescription(`<:emojiyes:779190801392861224> The channel you requested to delete is now deleted!`)
                     .setColor('GREEN')
                     .setFooter('The EverythinBot')
                     .setTimestamp(new Date())
@@ -31,7 +31,7 @@ module.exports = {
 
             } else {
                 const embed = new MessageEmbed()
-                .setDescription(`**Description:** Deletes a channel\n**Cooldown:** 10 seconds\n**Usage:** ${prefix}delete-channel [confirm / deny]\n`)
+                .setDescription(`<:emojino:779190801598775317> Please say CONFIRM/DENY for this request`)
                 .setColor('ORANGE')
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
@@ -39,7 +39,7 @@ module.exports = {
             }
         } else if(!message.member.hasPermission('MANAGE_CHANNELS')){
             const embed = new MessageEmbed()
-            .setDescription(`You do not have Permissions to use this command!`)
+            .setDescription(`<:emojino:779190801598775317> You do not have Permissions to use this command!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())

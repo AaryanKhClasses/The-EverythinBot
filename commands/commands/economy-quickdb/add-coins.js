@@ -18,7 +18,7 @@ module.exports = {
         if(!user){
             const embed = new Discord.MessageEmbed()
             .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-            .setDescription(`Please specify a person to add coins to!`)
+            .setDescription(`<:emojino:779190801598775317> Please specify a person to add coins to!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -27,7 +27,7 @@ module.exports = {
         if(user.bot || user === client.user){
             const embed = new Discord.MessageEmbed()
             .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-            .setDescription(`Sorry! You cannot add coins to bots!`)
+            .setDescription(`<:emojino:779190801598775317> Sorry! You cannot add coins to bots!`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -40,7 +40,7 @@ module.exports = {
         if(!amount){
             const embed = new Discord.MessageEmbed()
             .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-            .setDescription(`Please specify the number of coins you want to add.`)
+            .setDescription(`<:emojino:779190801598775317> Please specify the number of coins you want to add.`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -49,7 +49,7 @@ module.exports = {
         if(isNaN(amount)){
             const embed = new Discord.MessageEmbed()
             .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-            .setDescription(`That is an invaild number of coins.`)
+            .setDescription(`<:emojino:779190801598775317> That is an invaild number of coins.`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -58,7 +58,7 @@ module.exports = {
         if(amount < 1){
             const embed = new Discord.MessageEmbed()
             .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-            .setDescription(`Sorry! You cannot add less than 1 coins! Why would you wanna do that?`)
+            .setDescription(`<:emojino:779190801598775317> Sorry! You cannot add less than 1 coins! Why would you wanna do that?`)
             .setColor('RED')
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
@@ -68,7 +68,7 @@ module.exports = {
         db.add(`account.${message.author.id}.balance`, amount)
         const embed = new Discord.MessageEmbed()
         .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL())
-        .setDescription(`Yay! You have added ${amount} coin(s) to <@${user.id}>. But don't cheat again!`)
+        .setDescription(`<:emojiyes:779190801392861224> Yay! You have added ${amount} coin(s) to <@${user.id}>. But don't cheat again!`)
         .setColor('GREEN')
         .setFooter('The EverythinBot')
         .setTimestamp(new Date())
@@ -79,7 +79,7 @@ module.exports = {
             .setFooter('The EverythinBot')
             .setTimestamp(new Date())
             .setDescription(
-                `🅾 You dont have the permissions to use this command.`
+                `<:emojino:779190801598775317> You dont have the permissions to use this command.`
             )
             message.channel.send(embed)
         }

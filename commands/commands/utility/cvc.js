@@ -15,12 +15,10 @@ module.exports = {
             if(!name){
                 const embed = new MessageEmbed()
                 .setTitle(`${prefix}cvc Command`)
-                .setDescription(
-                    `**Description:** Creates an uncategorized voice channel.\n**Cooldown:** 10 seconds\n**Usage:** !cvc [channel name]\n**Example:** !cvc Test Channel`
-                )
+                .setDescription(`<:emojino:779190801598775317> Please give name to make a voice channel!`)
                 .setFooter('The EverythinBot')
                 .setTimestamp(new Date())
-                .setColor('ORANGE')
+                .setColor('RED')
                 message.channel.send(embed)
             } else if(name){
                 message.guild.channels
@@ -33,7 +31,7 @@ module.exports = {
                 })
             
                 const embed = new MessageEmbed()
-                .setDescription(`✅ Successfully created voice channel ${name}!`)
+                .setDescription(`<:emojiyes:779190801392861224> Successfully created voice channel ${name}!`)
                 .setFooter('The EverythinBot')
                 .setColor('GREEN')
                 .setTimestamp(new Date())
@@ -46,7 +44,7 @@ module.exports = {
         ) {
             const embed = new MessageEmbed()
             .setDescription(
-                `🅾 You do not have the permission to use this command!`
+                `<:emojino:779190801598775317> You do not have the permission to use this command!`
             )
             .setColor('RED')
             .setFooter('The EverythinBot')
