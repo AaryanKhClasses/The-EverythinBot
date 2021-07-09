@@ -5,8 +5,8 @@ module.exports = {
     commands: ['google', 'search'],
     cooldown: 10,
     callback: async(message, args) => {
-        let googlekey = 'AIzaSyCcw7xOevdGc5tngrmQHxIGx7gSnkXDn-8'
-        let csx = '7b606c587eae4bc38'
+        let googlekey = '<archived>'
+        let csx = '<archived>'
         let query = args.join(' ')
         let result
 
